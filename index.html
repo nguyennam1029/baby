@@ -34,13 +34,14 @@
     <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
+    <button id="startMusic">Bấm để nghe nhạc</button>
     <audio id="audio" src="simpleLove.mp3" autoplay></audio>
 
     <script src="main.js"></script>
     <script>
-      window.addEventListener("load", () => {
+      document.getElementById("startMusic").addEventListener("click", () => {
         const audio = document.getElementById("audio");
-        audio.play().catch((error) => console.log("Autoplay bị chặn:", error));
+        audio.play();
       });
     </script>
   </body>

@@ -158,3 +158,10 @@ p {
     font-size: 4vw;
     
 }
+button {
+  z-index: 100;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+  
+}
