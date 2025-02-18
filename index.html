@@ -34,7 +34,13 @@
     <div id="canva">
       <canvas id="canvas"></canvas>
     </div>
-    <button id="startMusic">Bấm để nghe nhạc</button>
+    <div class="container" id="startMusic">
+      <label>
+        <input class="play-btn" type="checkbox" />
+        <div class="play-icon"></div>
+        <div class="pause-icon"></div>
+      </label>
+    </div>
     <audio id="audio" src="simpleLove.mp3" autoplay></audio>
 
     <script src="main.js"></script>
